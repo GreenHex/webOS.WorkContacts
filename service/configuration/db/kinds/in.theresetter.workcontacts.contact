@@ -1,0 +1,9 @@
+{
+    "id": "in.theresetter.workcontacts.contact:1",
+    "owner": "in.theresetter.workcontacts.service",
+    "sync": true,
+    "indexes": [{ 
+       "name": "accountId", 
+       "props": [{ "name": "accountId"}]}], 
+    "extends": ["com.palm.contact:1"]
+}

@@ -1,0 +1,8 @@
+{
+    "id": "in.theresetter.workcontacts.transport:1",
+    "owner": "in.theresetter.workcontacts.service",
+    "indexes": [{ 
+       "name": "lastSync", 
+       "props": [{ "name": "lastSync"}]}
+       ]
+}

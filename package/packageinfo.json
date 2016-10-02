@@ -1,0 +1,13 @@
+{
+  "id": "in.theresetter.workcontacts",
+  "package_format_version": 2,
+  "loc_name": "Work Contacts",
+  "icon": "icon48x48.png",
+  "miniicon": "icon48x48.png",
+  "version": "1.0.0",
+  "vendor": "The Resetter",
+  "vendorurl": "www.TheResetter.in",
+  "app": "in.theresetter.workcontacts",
+  "services": ["in.theresetter.workcontacts.service"],
+  "accounts": ["in.theresetter.workcontacts.contact"]
+}

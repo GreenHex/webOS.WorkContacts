@@ -1,0 +1,26 @@
+{
+    "templateId": "in.theresetter.workcontacts.contact",
+    "loc_name": "Work Contacts",
+    "readPermissions": ["in.theresetter.workcontacts.service"],
+    "writePermissions": ["in.theresetter.workcontacts.service"],
+    "validator": "palm://in.theresetter.workcontacts.service/checkCredentials",
+    "onCapabiltiesChanged" : "palm://in.theresetter.workcontacts.service/onCapabiltiesChanged",       
+    "onCredentialsChanged" : "palm://in.theresetter.workcontacts.service/onCredentialsChanged",   
+    "loc_usernameLabel": "Username",
+    "icon": {
+		"loc_32x32": "images/icon32x32.png",
+		"loc_48x48": "images/icon48x48.png"
+	},    
+    "capabilityProviders": [{
+        "capability": "CONTACTS",
+        "id"        : "in.theresetter.workcontacts.contacts",
+        "onCreate"  : "palm://in.theresetter.workcontacts.service/onCreate",  
+        "onEnabled" : "palm://in.theresetter.workcontacts.service/onEnabled", 
+        "onDelete"  : "palm://in.theresetter.workcontacts.service/onDelete",
+        "sync"      : "palm://in.theresetter.workcontacts.service/sync", 
+        "loc_name"  : "Work Contacts",
+        "dbkinds": {  
+                "contact": "in.theresetter.workcontacts.contact:1"
+        }
+    }]
+}

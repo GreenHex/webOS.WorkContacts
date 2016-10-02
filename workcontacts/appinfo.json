@@ -1,0 +1,11 @@
+{
+	"id": "in.theresetter.workcontacts",
+	"version": "1.0.0",
+	"vendor": "The Resetter",
+	"type": "web",
+	"main": "index.html",
+	"title": "Work Contacts",
+	"visible": "false",
+	"icon": "icon64x64.png",
+	"uiRevision":2
+}
